@@ -41,7 +41,7 @@ export const About = () => {
           <div className='section-5_div-1'>
             <span><FaBullhorn/></span>
             <h1>SEO Marketing</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia vitae hic ut ex. Aliquid excepturi alias </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia vitae hic ut ex. Aliquid excepturi alias ad</p>
           </div>
         </div>
 
