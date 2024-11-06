@@ -1,0 +1,10 @@
+.col{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 4vh;
+    cursor: pointer;
+}
+.col div:hover{
+    color: rgb(241, 157, 171);
+}

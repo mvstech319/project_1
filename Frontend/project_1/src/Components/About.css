@@ -1,0 +1,144 @@
+.section-2{
+    text-align: center;
+    padding: 5vh;
+}
+.section-2 span{
+    background-color: rgb(174, 210, 231);
+    padding: 1vh 1vw;
+    font-family: sans-serif;
+}
+.section-2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8vh;
+    line-height: 15vh;
+    text-transform: capitalize;
+    position: relative;
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3_div-1{
+    height: auto;
+    width: 60%;
+}
+.section-3_div-1 span{
+    color:chocolate;
+    text-decoration: underline chocolate 2px;
+    text-underline-offset: .5vh;
+}
+.section-3_div-1 h1{
+    padding: 0vh 2vw;
+}
+.section-3_div-1 p{
+    font-size: 5vh;
+    padding: 1vh 2vw;
+}
+.section-3_div-2{
+    height: auto;
+    width: 40%;
+    text-align: center;
+}
+.number{
+    font-size: 20vh;
+    background-color:chocolate;
+    border-radius:50%;
+}
+.experiance{
+    color: blueviolet;
+}
+.section-4{
+    text-align: center;
+    margin-top: 4vw;
+}
+.section-4 span{
+    background-color: rgb(174, 210, 231);
+    padding: 1vh 1vw;
+    font-family: sans-serif;
+}
+.section-4 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:6vh;
+    line-height: 15vh;
+    text-transform: capitalize;
+}
+.section-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vw;
+    padding: 2vw 2vw;
+}
+.section-5_div-1{
+    text-align: center;
+    padding: 5vh 3vh;
+    box-shadow: 0 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.section-5 span{
+    color: aqua;
+    font-size: 10vh;
+}
+.section-5 p{
+    font-size: 3.5vh;
+    padding: 4vh 0vh;
+}
+
+
+@media (max-width:665px) {
+    .section-5{
+        flex-direction: column;
+    }
+}
+@media (max-width:990px) {
+    .section-5_div1{
+        height: 100vh;
+    }
+}
+@media (max-width:400px){
+    .section-2 span{
+        font-size: 4vh;
+        line-height: 15vh;
+    }
+    .section-2 h1{
+        font-size:5vh;
+        line-height: 1vh;
+        
+    }
+    .section-3{
+        flex-direction: column;
+    }
+    .section-3_div-1{
+        height:auto;
+        width: 100%;
+    }
+    .section-3_div-1 p{
+        font-size: 4vh;
+        padding: 1vh 2vw;
+    }
+    .section-3_div-2{
+        height: auto;
+        width: 100%;
+    }
+    .number{
+        font-size: 20vh;
+    }
+    .section-4 span{
+        font-size: 4vh;
+        line-height: 10vh;
+    }
+    .section-4 h1{
+        font-size:4vh;
+        line-height: 5vh;
+    }
+    .section-5{
+        flex-direction: column;
+    }
+    .section-5 span{
+        font-size: 15vh;
+    }
+    .section-5 p{
+        font-size: 4vh;
+    }
+    
+}

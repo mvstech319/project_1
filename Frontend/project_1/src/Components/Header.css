@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: burlywood;
+}
+.logo_text{
+    color:rgb(73, 118, 145);
+    font-family: "Dancing Script";
+    font-size: 2.5rem;
+}
+.menu{
+    display: flex;
+    gap: 4rem;
+    
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.Menu_btn{
+    font-size: 4rem;
+    border-radius: 5px; 
+    display: none;
+}
+.Menu_btn:hover{
+
+    color: white;
+}
+@media(max-width:1150px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        top:7.4rem;
+        right:0.1rem;
+        width: 30%;
+        text-align:center;
+        padding: 1rem 0rem 1rem 0rem;
+        background-color: rgb(121, 90, 45);
+        gap: 2.5rem;
+        /* transition: 0.5s; */
+    }
+    .Menu_btn{
+        display: block;
+    }
+    .open{
+        display: flex;
+    }
+}
+@media(max-width:483px){
+    .menu{
+        top:7.4rem;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:285px){
+    .menu{
+        top:11.4rem;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* @media(max-width:257px){
+    .menu{
+        top:11.3rem;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+} */
+
